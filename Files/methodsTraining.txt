@@ -1,0 +1,5 @@
+SSEQ_train
+gwh_glbp_biqa_train
+NOREQI_train
+googlenet_train
+inceptionv3_train

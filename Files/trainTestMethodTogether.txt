@@ -1,0 +1,11 @@
+Var1,t2
+NR_FQPath,None
+BRISQUE,None
+Divine,None
+scoreNIQE,None
+SSEQ_score,SSEQ_train
+gwh_glbp_biqa,gwh_glbp_biqa_train
+s_index,None
+NOREQI_score,NOREQI_train
+googlenet_score,googlenet_train
+inceptionv3_score,inceptionv3_train

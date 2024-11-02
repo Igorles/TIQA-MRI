@@ -1,0 +1,10 @@
+NR_FQPath
+BRISQUE
+Divine
+scoreNIQE
+SSEQ_score
+gwh_glbp_biqa
+s_index
+NOREQI_score
+googlenet_score
+inceptionv3_score
