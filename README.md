@@ -20,7 +20,7 @@ To install TIQA-MRI, download or clone this repository and add it to your MATLAB
 
 ```matlab
 % Download the repository
-websave('TIQA-MRI-main.zip', 'https://github.com/Igorles/TIQA-MRI/archive/refs/heads/main.zip');
+websave('TIQA-MRI-main.zip', 'https://github.com/Igorles/TIQA-MRI/archive/refs/heads/main.zip);
 % Unzip the repository
 unzip('TIQA-MRI-main.zip');
 % Add the repository to the MATLAB path
