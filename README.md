@@ -4,10 +4,10 @@ TIQA-MRI is a MATLAB toolbox designed for assessing the quality of Magnetic Reso
 
 ## Features
 
-- Perform image qualty assessment from selected database
+- Perform image qualty assessment from selected database.
 - Customize single method testing and training.
-- Compare the performance of the image database trained on selected IQA methods
-- Manage the list of new and existing training methods
+- Compare the performance of the image database trained on selected IQA methods.
+- Manage the list of new and existing training methods.
 
 ## Installation
 1. Prerequisites:
