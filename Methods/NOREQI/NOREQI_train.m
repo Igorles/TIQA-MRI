@@ -6,6 +6,11 @@ for i=1:length(mos)
     feat(i,:) = NOREQI(readImage(imdist{i}));
 
 end
+savePath = fullfile(pwd, 'Methods', 'NOREQI', 'models');
+
+if ~exist(savePath, 'dir')
+    mkdir(savePath); % Create the directory if it doesn't exist
+end
 
 minyO=min(feat);  %1) Different features have different ranges. Find them.
 maxyO=max(feat);

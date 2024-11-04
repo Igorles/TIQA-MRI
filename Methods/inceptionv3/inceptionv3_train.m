@@ -27,6 +27,12 @@ options = trainingOptions("sgdm", ...
     Plots="none", ...
     Verbose=false);
 
+savePath = fullfile(pwd, 'Methods', 'inceptionv3', 'models');
+
+if ~exist(savePath, 'dir')
+    mkdir(savePath); % Create the directory if it doesn't exist
+end
+
 lgraph = layerGraph(lgraph);
 lgraph = trainNetwork(dsTrain, lgraph, options);
 save(strcat(pwd,filesep,'Methods',filesep,'inceptionv3',filesep,'models',filesep,strcat(fileName,'.mat')),'lgraph')

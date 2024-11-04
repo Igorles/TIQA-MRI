@@ -29,6 +29,14 @@ options = trainingOptions("sgdm", ...
 
 lgraph = layerGraph(lgraph);
 lgraph = trainNetwork(dsTrain, lgraph, options);
+
+
+savePath = fullfile(pwd, 'Methods', 'GoogLeNet', 'models');
+
+if ~exist(savePath, 'dir')
+    mkdir(savePath); % Create the directory if it doesn't exist
+end
+
 save(strcat(pwd,filesep,'Methods',filesep,'GoogLeNet',filesep,'models',filesep,strcat(fileName,'.mat')),'lgraph')
 end
 

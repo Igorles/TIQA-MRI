@@ -4,10 +4,10 @@ TIQA-MRI is a MATLAB toolbox designed for assessing the quality of Magnetic Reso
 
 ## Features
 
-- Perform image qualty assessment from selected database
-- Customize single method testing and training [1]
-- Compare the performance of the image database trained on selected IQA methods
-- Manage the list of new and existing training methods
+- Perform image qualty assessment from selected database.
+- Customize single method testing and training.
+- Compare the performance of the image database trained on selected IQA methods.
+- Manage the list of new and existing training methods.
 
 ## Installation
 1. Prerequisites:
@@ -38,14 +38,14 @@ main
 ```
 
 #### Image Assessment
-In this tab, you can load an image from the DB1 database ( Open button), select an assessment method (Select model), and compute objective quality scores. The selected image is displayed in the center of the screen, and if a training-based method is chosen, you can also select a previously trained model (Previous Image/ Next Image buttons). To begin the evaluation, simply click the Evaluate button, and the results are automatically saved to the base workspace. You also have the option to export the scores to a file.
+In this tab, you can load an image from the DB1 database (Open button), select an assessment method (Select model), and compute objective quality scores. The selected image is displayed in the center of the screen, and if a training-based method is chosen, you can also select a previously trained model (Previous Image/ Next Image buttons). To begin the evaluation, simply click the Evaluate button, and the results are automatically saved to the base workspace. You also have the option to export the scores to a file.
 
 #### Method evaluation
 In the Method Evaluation tab, you can customize and perform quality model training and testing on image data from the selected database. This tab provides a range of options to tailor single-method testing to specific requirements.
 
 You can select a CSV or XLS file with images for training or testing, and specify a directory path for database images (Open buttons). This allows adding paths for images outside the main folder, ensuring a clear overview of image paths for experiments. Selected file paths are optional, and once loaded, a list of images and their subjective scores will appear at the top of the window.
 
-Additional settings can be accessed under the Options button, where you can define the percentage split between training and testing data (Size of the training/ testing data subsets (in percent)), the number of images per type (Consecutive number of images of the same object), or a random seed for dataset splitting. If a number is entered in the Size of the training subset field, the corresponding test subset size is filled in automatically. The database split is finalized by clicking the Random split button, with results shown in the main window. The Options tab remains open for further adjustments and can be closed manually by pressing the x in the corner.
+Additional settings can be accessed under the Options button, where you can define the percentage split between training and testing data (Size of the training/testing data subsets (in percent)), the number of images per type (Consecutive number of images of the same object), or a random seed for dataset splitting. If a number is entered in the Size of the training subset field, the corresponding test subset size is filled in automatically. The database split is finalized by clicking the Random split button, with results shown in the main window. The Options tab remains open for further adjustments and can be closed manually by pressing the x in the corner.
 
 At the bottom of the window, split results display training images on the left and test images on the right. If testing alone is required—either because the method doesn’t need training or a pre-trained model is available—the user can select the method and model. For model training, specify the model name in the Name the selected model field and press Train to start training.
 

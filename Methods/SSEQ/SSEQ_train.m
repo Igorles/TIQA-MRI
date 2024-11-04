@@ -6,6 +6,11 @@ for i=1:length(mos)
     feat(i,:) = feature_extract_SEEQ(readImage(imdist{i}),3);
 
 end
+savePath = fullfile(pwd, 'Methods', 'SSEQ', 'models');
+
+if ~exist(savePath, 'dir')
+    mkdir(savePath); % Create the directory if it doesn't exist
+end
 
 minyO=min(feat);  %1) Different features have different ranges. Find them.
 maxyO=max(feat);
