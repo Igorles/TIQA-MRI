@@ -38,7 +38,7 @@ main
 ```
 
 #### Image Assessment
-In this tab, you can load an image from the DB1 database (Open button), select an assessment method (Select model), and compute objective quality scores. The selected image is displayed in the center of the screen, and if a training-based method is chosen, you can also select a previously trained model (Previous Image/ Next Image buttons). To begin the evaluation, simply click the Evaluate button, and the results are automatically saved to the base workspace. You also have the option to export the scores to a file.
+In this tab, you can load an image from the database (Open button), select an assessment method (Select model), and compute objective quality scores. The selected image is displayed in the center of the screen, and if a training-based method is chosen, you can also select a previously trained model (Previous Image/ Next Image buttons). To begin the evaluation, simply click the Evaluate button, and the results are automatically saved to the base workspace. You also have the option to export the scores to a file.
 
 #### Method evaluation
 In the Method Evaluation tab, you can customize and perform quality model training and testing on image data from the selected database. This tab provides a range of options to tailor single-method testing to specific requirements.
