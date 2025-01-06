@@ -9,3 +9,4 @@ s_index,None
 NOREQI_score,NOREQI_train
 googlenet_score,googlenet_train
 inceptionv3_score,inceptionv3_train
+SNRTOI,None

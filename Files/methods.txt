@@ -8,3 +8,4 @@ s_index
 NOREQI_score
 googlenet_score
 inceptionv3_score
+SNRTOI
